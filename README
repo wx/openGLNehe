@@ -1,0 +1,8 @@
+构建
+在linux系统中
+mkdir build
+cd build
+如果希望在eclipse中浏览项目使用以下命令
+cmake ../lessons/ -G"Eclipse CDT4 - Unix Makefiles"
+直接编译
+cmake ../lessons
